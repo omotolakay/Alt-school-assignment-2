@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <h1>Welcome to my media page</h1>
+    <p>Here is a collection of images, videos, and audio files that tell my story.</p>
+
+    <h2>Listen to my Audio intro</h2>
+    <audio controls>
+        <source src="assets/audios/Mustapha intro.mp4.m4a" type="audio/mpeg">
+    </audio>
+
+    <h2>My protrait</h2>
+      <img src="assets/images/IMG_4952.jpg"alt="Test image" width="300">
+
+    <picture>
+       <source srcset="assets/images/cat.jpg" media="(max-width: 600px)">
+       <source srcset="assets/images/cat.jpg" media="(max-width: 1024px)">
+       <source srcset="assets/images/cat.jpg" media="(min-width: 1025px)">
+       <img src="assets/images/cat_large.jpg" alt="A cat" width="500">
+    </picture>
+    
+</body>
+</html>
